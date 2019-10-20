@@ -1,4 +1,3 @@
-# studentRegistration-
-student registration system 
-Leul Necha
-Getaneh Tafere
+Final Project
+1.Leul Necha
+2.Getaneh Tafere

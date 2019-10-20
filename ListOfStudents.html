@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>List of students</title>
+    <script src="StudentRegistration.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body onload="displayAllStudent()">
+    <nav class="navbar navbar-expand-lg " style="background-color: #56baed;">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="logIn.html">LogIn</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> <br><br>
+    <div class="container">
+        <table class="table table-bordered table-striped">
+        </table>
+        <button onclick="sortStdByFirstName()">Sort By First Name</button>
+        <button onclick="sortStdByLastName()">Sort By Last Name</button>
+    </div>
+    <a href="https://validator.w3.org/check/referer">
+        <img src="http://mumstudents.org/cs472/2013-09/images/w3c-html.png" title="Validate the HTML"
+          alt="Validate HTML" />
+      </a>
+
+</body>
+
+</html>
